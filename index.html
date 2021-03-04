@@ -16,21 +16,43 @@
 			| (815)-814-0752 |
 			<a href="https://github.com/RobertRBarton">GitHub</a> 
 		</h2>
-		
-		<button class="navigation" id="home" style="background:#787d7b;">Homepage</button>
-		<button class="navigation" id="goals">Future Goals</button>
-		<button onclick="myFunction()" class="navigation">Projects</button>
-		<button class="navigation" id="resume">Resume</button>
-		<button class="navigation" id="genEd">Gen Ed Reflection</button>
-		<button class="navigation" id="cum">Iowa State Reflection</button>
-		<button class="navigation" id="ethics">Ethics paper</button>
-		<div id="myDropdown" class="dropdown-content">
-			<a href="#">Senior Design</a>
-			<a href="#">This Website</a>
-			<a href="#">Automated Roomba Rover</a>
-			<a href="#">Game Website</a>
-		</div>			
-		
+		<table class="navigation">
+			<tr>
+				<td class="navigation" style="background:#787d7b;">
+					<button class="navigation" id="home" >Homepage</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="goals">Future Goals</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="Projects" >Projects</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="resume">Resume</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="genEd">Gen Ed Reflection</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="ISU">Iowa State Reflection</button>
+				</td>
+				<td class="navigation">
+					<button class="navigation" id="ethics">Ethics paper</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td id="myDropdown" class="dropdown-content" onclick="myFunction()" style="display: none;">
+					<a href="#">Senior Design</a>
+					<a href="#">This Website</a>
+					<a href="#">Automated Roomba Rover</a>
+					<a href="#">Game Website</a>
+				</td>
+			</tr>
+		</table>		
 		<script src="static/refs/js/frontendLogic.js" type="text/javascript"></script>
 	</body>
 </html>

@@ -14,26 +14,37 @@ h2, h3{
 	color:#0c693e;
 	margin: 0.5em;
 }
-button.navigation{
-	float: left;
+table.navigation{
+	width:100%;
 	padding: 0;
 	margin: 0;
+	border-spacing: 0;
+}
+td.navigation{
+	width:14.28%;
+	padding: 0;
+	margin: 0;
+	background:#006b36;
+	cursor: pointer;
+}
+button.navigation{
+	width:100%;
+	float: left;
 	overflow:hidden;
 	font-size:24px;
-	background:#006b36;
+	background:inherit;
 	color:white;
-	width:14.28%;
-	cursor: pointer;
 	border: none;
+	cursor: inherit;
 }
-button.navigation:hover{
+td.navigation:hover{
 	background:#00361b;
 }
 
 /* Dropdown Content */
-.dropdown-content {
-	display:  inline-block;
-	margin-left: 28.56%;
+td.dropdown-content {
+  position: absolute;
+  z-index: 1;
   background-color: #f1f1f1;
   width: 160px;
   overflow: auto;
