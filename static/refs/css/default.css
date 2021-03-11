@@ -21,21 +21,15 @@ table.navigation{
 	border-spacing: 0;
 }
 td.navigation{
+	padding: 10px 0;
+	font-size:24px;
+	color:white;
 	width:14.28%;
-	padding: 0;
 	margin: 0;
 	background:#006b36;
 	cursor: pointer;
-}
-button.navigation{
-	width:100%;
-	float: left;
-	overflow:hidden;
-	font-size:24px;
-	background:inherit;
-	color:white;
-	border: none;
-	cursor: inherit;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 td.navigation:hover{
 	background:#00361b;
