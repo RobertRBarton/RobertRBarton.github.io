@@ -26,7 +26,7 @@ window.onclick = function(event) {
 	var content=document.getElementById("myDropdown")
   if (content.style.display=="inline-block") {
     content.style.display="none";
-  }else if(event.target.id=="Projects"){
+  }else if(event.target.id=="projects"){
 	document.getElementById("myDropdown").style.display="inline-block";
   }
 }
