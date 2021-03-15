@@ -15,6 +15,10 @@ document.getElementById("ethics").onclick = function () {
 	location.href = "ethics.html";
 };
 
+document.getElementById("genEd").onclick = function () {
+	location.href = "genEdRef.html";
+};
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
