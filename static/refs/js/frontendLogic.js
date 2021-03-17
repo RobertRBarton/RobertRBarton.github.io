@@ -19,6 +19,10 @@ document.getElementById("genEd").onclick = function () {
 	location.href = "genEdRef.html";
 };
 
+document.getElementById("goals").onclick = function () {
+	location.href = "future.html";
+};
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
