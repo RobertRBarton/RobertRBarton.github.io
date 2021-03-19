@@ -24,7 +24,7 @@ document.getElementById("goals").onclick = function () {
 };
 
 document.getElementById("ISU").onclick = function () {
-	//location.href = "ISURef.html";
+	location.href = "ISURef.html";
 };
 
 /* When the user clicks on the button,
