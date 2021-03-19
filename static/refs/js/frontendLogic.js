@@ -23,6 +23,10 @@ document.getElementById("goals").onclick = function () {
 	location.href = "future.html";
 };
 
+document.getElementById("ISU").onclick = function () {
+	//location.href = "ISURef.html";
+};
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
